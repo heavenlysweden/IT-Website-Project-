@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+header {
+  background: #0d47a1;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+nav {
+  background: #1565c0;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: #e3f2fd;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero button {
+  padding: 12px 20px;
+  border: none;
+  background: #0d47a1;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section {
+  background: white;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #e3f2fd;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  border-left: 5px solid #0d47a1;
+  padding: 15px;
+  background: orange;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background: #0d47a1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  background: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact-info {
+  text-align: center;
+  margin-top: 15px;
+}
+h1{
+  background:maroon;
+}
+h1:hover{
+  color:orange;
+}
+span{
+  background:green;
+  font-weight:bold
+}
+span:hover{
+  color:orange;
+}
+p:hover{
+  color:orange;
+}
+nav :hover{
+  color:pink;
+}
+h2:hover{
+  color:green
+}
+h3:hover{
+  color:purple;
+}
+.cards{
+  background:violet;
+}
+.cards:hover{
+  color:pink;
+}
+/* SLIDER */
+.slider{
+position:relative;
+width:100%;
+height:400px;
+overflow:hidden;
+}
+
+.slides img{
+width:100%;
+height:400px;
+object-fit:cover;
+display:none;
+}
+
+.slides img.active{
+display:block;
+}
+
+button.prev, button.next{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+background:#00000080;
+color:white;
+border:none;
+padding:10px 15px;
+cursor:pointer;
+}
+
+button.prev{left:10px;}
+button.next{right:10px;}
+/* FLOWING BRANDS */
+.brands{
+overflow:hidden;
+white-space:nowrap;
+background:white;
+padding:20px 0;
+}
+
+.brands img{
+width:120px;
+margin:0 30px;
+animation:flow 10s linear infinite;
+}
+
+@keyframes flow{
+0%{transform:translateX(0);}
+100%{transform:translateX(-100%);}
+}
+
+/* BUTTON */
+.btn{
+background:#0a1f44;
+color:white;
+padding:10px 20px;
+border:none;
+cursor:pointer;
+margin-top:20px;
+}
+
+/* CONTACT ICONS */
+.contact-icons i{
+font-size:20px;
+margin:10px;
+color:#0a1f44;
+}
+
+
